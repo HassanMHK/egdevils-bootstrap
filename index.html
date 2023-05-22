@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>EG-Devils</title>
+  </head>
+  <body>
+    <div
+      class="preloader bg-body-secondary d-grid justify-content-center align-items-center position-fixed top-0 start-0 end-0 bottom-0"
+    >
+      <div class="spinner-border text-danger" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <div class="container text-center">
+      <!-- Navbar -->
+      <div class="navbar-container row">
+        <nav class="navbar navbar-expand-md bg-body-secondary nav-fill w-100 p-0">
+          <div class="container">
+            <div class="egd-container d-flex justify-content-center align-items-center">
+              <img src="media/egd.png" id="egd-logo" />
+              <a class="navbar-brand text-danger fs-4" href="index.html">EG-Devils</a>
+            </div>
+            <button
+              class="navbar-toggler m-2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto me-auto mb-0">
+                <li class="nav-item activePage px-3 py-1">
+                  <a
+                    class="nav-link text-primary fs-5"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item px-3 py-1">
+                  <a class="nav-link fs-5" href="videos.html">Videos</a>
+                </li>
+                <li class="nav-item dropdown px-3 py-1">
+                  <a
+                    class="nav-link dropdown-toggle fs-5"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Games
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        target="_blank"
+                        href="https://www.digitalcombatsimulator.com"
+                        >DCS</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        target="_blank"
+                        href="https://arma3.com"
+                        >ARMA 3</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        target="_blank"
+                        href="https://www.flightsimulator.com"
+                        >MSFS 2020</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Header -->
+      <div class="header row my-2">
+        <img src="media/headL.png" class="p-0" />
+      </div>
+      <div class="header-text row">
+        <div
+          class="col-12 d-flex justify-content-center align-items-center bg-body-secondary rounded pt-1 mb-1"
+        >
+          <h3 class="fs-4 fw-bold">GAMES WE PLAY</h3>
+        </div>
+      </div>
+      <!-- Main section -->
+      <div class="main row justify-content-center mb-3">
+        <div class="card bg-secondary-subtle col-sm-12 col-md-4 pb-5">
+          <img src="media/dcs.png" class="mt-2 mb-3" />
+          <h5>DIGITAL COMBAT SIMULATOR</h5>
+          <p class="mt-2">
+            Digital Combat Simulator World (DCS World) 2.8 is a free-to-play
+            digital battlefield game. Our dream is to offer the most authentic
+            and realistic simulation of military aircraft, tanks, ground
+            vehicles and ships possible. This free download includes a vast
+            mission area of the Caucasus region and Black Sea that encompasses
+            much of Georgia. It also includes a flyable Russian Sukhoi Su-25T
+            ground attack aircraft and the famous WWII North American TF-51D
+            fighter. An additional more than two dozen aircraft are available
+            for purchase.
+          </p>
+          <div class="position-absolute bottom-0 end-0 mb-3 me-3">
+            <button type="button" class="btn btn-secondary card-btn">
+              <a class="linkBtn text-light" target="_blank" href="https://www.digitalcombatsimulator.com/en/downloads/world/">DOWNLOAD FREE</a>
+            </button>
+          </div>
+        </div>
+        <div class="card bg-secondary-subtle col-sm-12 col-md-4 pb-5">
+          <img src="media/arma.jpg" class="mt-2 mb-3" />
+          <h5>ARMA III</h5>
+          <p class="mt-2">
+            Arma 3 is an open world realism-based military tactical shooter
+            video game developed and published by Bohemia Interactive
+            exclusively through the Steam distribution platform. It is the third
+            main entry in the Arma series, and the eighth installment in the
+            series overall. Arma 3 was released for Microsoft Windows on
+            September 12, 2013, and for macOS and Linux on August 31, 2015. Arma
+            3 primarily takes place in the mid-2030s, on the fictional islands
+            of Altis and Stratis in the South Mediterranean Sea.
+          </p>
+          <div
+            class="d-grid gap-2 col-4 mx-auto position-absolute bottom-0 end-0 mb-3 me-3"
+          >
+            <button type="button" class="btn btn-secondary card-btn">
+              <a class="linkBtn text-light" target="_blank" href="https://arma3.com">MORE</a>
+            </button>
+          </div>
+        </div>
+        <div class="card bg-secondary-subtle col-sm-12 col-md-4 pb-5">
+          <img src="media/msfs.jpg" class="mt-2 mb-3" />
+          <h5>MICROSOFT FLIGHT SIMULATOR</h5>
+          <p class="mt-2">
+            Microsoft Flight Simulator is an amateur flight simulator developed
+            by Asobo Studio and published by Xbox Game Studios. It is an entry
+            in the Microsoft Flight Simulator series which began in 1982, and
+            was preceded by Microsoft Flight Simulator X in 2006. The game is a
+            return of the series after 14 years, with development beginning six
+            years prior to its release. It was released on August 18, 2020, for
+            Windows, with a virtual reality (VR) version released in December of
+            the same year as part of the free Sim 2 update.
+          </p>
+          <div
+            class="d-grid gap-2 col-4 mx-auto position-absolute bottom-0 end-0 mb-3 me-3"
+          >
+            <button type="button" class="btn btn-secondary card-btn">
+              <a class="linkBtn text-light" target="_blank" href="https://www.flightsimulator.com/">MORE</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Social section -->
+      <div class="social row mb-2">
+        <h2>FOLLOW US</h2>
+        <div>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/Digital.Combat.Sim.ME"
+            ><i class="fa-brands fa-facebook social-icon-f"></i
+          ></a>
+          <a target="_blank" href="https://www.twitter.com"
+            ><i class="fa-brands fa-twitter social-icon-t"></i
+          ></a>
+          <a target="_blank" href="https://www.youtube.com/@ice.egdevils/videos"
+            ><i class="fa-brands fa-youtube social-icon-y"></i
+          ></a>
+          <a target="_blank" href="https://discord.com/"
+            ><i class="fa-brands fa-discord social-icon-d"></i
+          ></a>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="footer row d-flex align-items-center">
+        <h6>© 2023, Developed by Hassan Mohamed using Bootstrap</h6>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
